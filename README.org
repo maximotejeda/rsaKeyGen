@@ -1,0 +1,18 @@
+#+TITLE: RSA Keys Random Generators
+#+AUTHOR: Maximo Tejeda
+#+EMAIL: maximotejeda@gmail.com
+
+* Important
+  A repo for start learning Go with one of the things i want to use in other projects:
+
+  This will be a Key generator for RSA512 keys pairs:
+
+  The string for generating the keys is a random 4096 bit from crypt/rand.
+
+  The keys will be created in the file and directory specified.
+
+  Im not learned in Crypto so this is a concept of understanding the concepts.
+
+* Usage:
+rsaKeyGen
+  
