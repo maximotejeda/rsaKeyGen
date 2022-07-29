@@ -22,7 +22,7 @@ import (
 // Generate the keys in the desired Directory
 // where: is where we want the keys to be created
 // we dont Expect any return other than created files in the system
-// Shall we get names for keys from env?
+// Shall we get names and byte size for keys from env?
 func GenerateKeyPair(where string) error {
 	pub, priv := "pubRsaKey.pub", "privateRSAKey"
 	bitSize := 4096 // equals a 512 bits
